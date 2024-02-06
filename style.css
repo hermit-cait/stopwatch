@@ -5,11 +5,11 @@ span, button {
   font-family: Lato;
 }
 span {
-  font-size: 3rem;
+  font-size: 1.5rem;
   letter-spacing: 0.2rem;
 }
 button {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   width: 8rem;
 }
@@ -19,9 +19,10 @@ button {
 }
 .timer {
   margin-block-end: 1rem;
+  text-align: center;
 }
 sub {
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 .controls {
   display: flex;
@@ -38,3 +39,16 @@ button {
 button:hover, ::selection {      
   background-color: hsl(280, 70%, 80%);
 }
+
+
+@media (min-width: 450px) {
+  span {
+    font-size: 3rem;
+  }
+  sub {
+    font-size: 1.8rem;
+  }
+  button {
+    font-size: 2rem
+  }
+};
