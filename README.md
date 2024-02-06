@@ -4,7 +4,7 @@ An easily accessible and pretty looking stopwatch for timing my tea -- currently
 This stopwatch is built using jQuery.
 
 Todo:
-- Change jQuery file to online reference
-- Clean up and modernise code
-- Add nicer hover effect
-- Perhaps add a click/active effect
+- NB: Make buttons tabbable!
+- Add different colour themes
+- Elaborate on hover effect
+- Put time in <title> spot (tab preview functionality)
