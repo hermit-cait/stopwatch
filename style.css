@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+span, button {
+  color: hsl(280, 40%, 20%);
+  font-family: Lato;
+}
+span {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+button {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  width: 8rem;
+}
+.container {
+  width: fit-content;
+  margin: 3rem auto;
+}
+.timer {
+  margin-block-end: 1rem;
+}
+sub {
+  font-size: 1.8rem;
+}
+.controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+button {
+  background-color: hsl(280, 70%, 90%);
+  border: none;
+  padding: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+button:hover, ::selection {      
+  background-color: hsl(280, 70%, 80%);
+}
