@@ -2,7 +2,7 @@
 
 span, button {
   color: hsl(280, 40%, 20%);
-  font-family: Lato;
+  font-family: "Lato";
 }
 span {
   font-size: 1.5rem;
@@ -43,7 +43,7 @@ button:hover, ::selection {
 
 @media (min-width: 450px) {
   span {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   sub {
     font-size: 1.8rem;
